@@ -80,7 +80,7 @@ void loop()
     state = 1;
   }
   
- if (digitalRead(pin) == LOW && state == 1) 
+ if (digitalRead(pin) == LOW && state == 1) //if statment of Button read
  {
     state = 0;
     
